@@ -8,10 +8,11 @@
     <title>Exemplo PHP</title>
 </head>
 <body>
-    <h1>Exemplo PHP</h1>
+    <h1>Testando PHP</h1>
     <?php
-        $nome = "Victor";
-        echo "O Meu nome é $nome";
+        date_default_timezone_set("America/Sao_Paulo");
+        echo "Hoje é dia " . date("d/m/Y") . "<br>";
+        echo " e a hora atual é " . date("G:i:s");;
     ?>
 </body>
 </html>
